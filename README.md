@@ -74,7 +74,7 @@ contract Mundicoin is Interfacemc{
     mapping (address => uint256) private _balances;
     mapping (address => mapping (address => uint256)) private _allowed;
     uint256 public totalSupply;
-    string public name = "Mundicoin"; 
+    string public name = "MundiCoin"; 
     uint8 public decimals = 8; 
     string public symbol = "MC";
     address private _owner;
